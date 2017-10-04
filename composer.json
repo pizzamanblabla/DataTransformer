@@ -11,5 +11,8 @@
         "symfony/dependency-injection": "^3.3",
         "symfony/monolog-bundle": "^3.1",
         "phpunit/phpunit": "^6.3"
+    },
+    "autoload": {
+        "psr-4": { "Pizzamanblabla\\": "" }
     }
 }
