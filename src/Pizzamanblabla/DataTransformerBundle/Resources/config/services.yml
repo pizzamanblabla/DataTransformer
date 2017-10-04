@@ -1,0 +1,6 @@
+services:
+    pizzamanblabla.data_transformer.data_corrector.blank:
+        class: Pizzamanblabla\DataTransformerBundle\DataCorrector\Blank
+
+    pizzamanblabla.data_transformer.data_extractor.blank:
+        class: Pizzamanblabla\DataTransformerBundle\DataExtractor\Blank
