@@ -4,3 +4,6 @@ services:
 
     pizzamanblabla.data_transformer.data_extractor.blank:
         class: Pizzamanblabla\DataTransformerBundle\DataExtractor\Blank
+
+    pizzamanblabla.data_transformer.payload_modifier.json:
+        class: Pizzamanblabla\DataTransformerBundle\PayloadModifier\Json
